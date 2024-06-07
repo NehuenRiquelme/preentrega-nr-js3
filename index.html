@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Store.js</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="">
+  <div class="container my-5">
+     <!-- inicio de barra de navegacion -->
+<nav class="navbar navbar-dark bg-dark bg-transparent">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 fw-bold pe-3">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="./carrito.html">Carrito</a>
+          </li>
+          <li class="nav-item mx-2 ">
+              <a class="nav-link active" href="./verJuego.html">Ver Juego</a>
+            </li>
+            
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+  </nav><!-- fin de barra de navegacion -->
+    <div class="row">
+      <div class="col text-center">
+        <a href="index.html"><img src="./img/store.jg__1_-removebg-preview.png" width="180"></a>
+      </div>
+    </div>
+  </div>  
+  <div class="col-md-3 text-end  ">
+    <a href="carrito.html" id="botonCarrito"></a>
+  </div>
+      
+
+    <div class="container my-5">
+        <div id="contenido" class="row"></div>
+    </div>
+   
+
+     <!--inicio de footer  -->
+     <footer class="footer mb-2  ">
+      <div class="bg-transparent py-3 py-md-5 py-xl-8 border-light-subtle text-white">
+          <div class="container overflow-hidden">
+            <div class="row gy-3 gy-md-5 gy-xl-0 align-items-sm-center">
+              <div class="col-xs-12 col-sm-6 col-xl-3 order-0 order-xl-0">
+                <div class="footer-logo-wrapper text-center text-sm-start">
+                  <a href="#">
+                    <img src="./img/store.jg__1_-removebg-preview.png" alt="BootstrapBrain Logo" width="150" height="57">
+                  </a>
+                </div>
+              </div>
+              
+              <div >
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link link-secondary " href="./carrito.html">Carrito</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-secondary " href="./verJuego.html">Ver juego</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-secondary " href="./index.html">Inicio</a>
+                  </li>
+                
+                </ul>
+              </div>
+      
+             
+            </div>
+          </div>
+        </div>
+      
+        
+        
+      
+      </footer>
+      <!--fin de footer  -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/catalogo.js"></script>
+    <script src="js/juegos.js"></script>
+  </body>
+</html>
